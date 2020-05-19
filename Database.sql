@@ -17,7 +17,7 @@ select * from adminuser;
 
 DROP TABLE IF EXISTS employer;
 
-select * from employer;
+
 
 CREATE TABLE employer (
   empid int(11) NOT NULL AUTO_INCREMENT,
