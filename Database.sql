@@ -17,7 +17,7 @@ select * from adminuser;
 
 DROP TABLE IF EXISTS employer;
 
-select * from employer;
+
 
 CREATE TABLE employer (
   empid int(11) NOT NULL AUTO_INCREMENT,
@@ -70,7 +70,7 @@ LOCK TABLES jobseeker WRITE;
 
 select * from jobseeker;
 
-alter table jobseeker add column percent12 varchar(100) after school12;
+alter table jobseeker add column percent12_2 varchar(100) after school12;
 
 select * from jobseeker where username='pevemlord';
 
